@@ -1,0 +1,100 @@
+/*-----------------Dashboard--------------*/
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background: white;
+}
+.main{
+    background:url("images/intro.gif"); background-size: cover; 
+    width: 100vw; height: 100vh;
+    position: relative;
+}
+.main > h2{
+    backdrop-filter: blur(5px);
+}
+.bg{
+    background: #454545 !important;
+    color: whitesmoke !important;
+}
+#motto{
+    width: 25%;
+    position: absolute;
+    bottom: 21%; left: 40%; 
+    color: #FFE15D;
+    font: bold 50px sans-serif;
+}
+.left-index{
+    height: 90vh; width: 100vw;
+    margin-top: 2% !important;
+    display: none;
+}
+.left-index div{
+    height: 60vh;
+    color: black; font-weight:lighter; text-align: justify;
+}
+.left-index > div >img{
+    width:100%;height: 100%; object-fit: contain; 
+    color: black;
+    border-radius: 33% 0%;
+}
+.left-index > div >img:hover{
+    opacity: 0.4;
+}
+.left-index >div>h1{
+    text-transform: uppercase;  letter-spacing: 8px;
+    margin-top: 7%;
+}
+.d-block{
+    height: 25vw;
+    margin: 0% 3%;
+    float: left;
+}
+.content{
+    display: none;
+}
+/* -------------Mental------------------- */
+.mental{
+    width: 100vw;
+    color: white;
+    padding: 2% 4%;
+    /* background: url(mh.jpg) no-repeat; */
+}
+.mental>p{
+    font-weight: 200;
+}
+
+.media-content{
+
+}
+.media-content>div>div>img{
+    width: 100%;    height: 100%;    object-fit: contain;
+}
+.media-content>div>div{
+    float:left;
+    height: 100%;
+    padding: 0% 2%;;
+}
+.media-content>div>div>a{
+    text-decoration: none;
+    color: black; font-size: x-large; font-weight:bold;
+}
+.media-content>div{
+    background: whitesmoke;
+    /* border-radius:10%;  */
+    margin: 2% auto;
+    height: 30vh;
+}
+.media-content>div:hover{
+    border:6px solid tomato;
+}
+.media-content>div>p{
+    text-align: justify;
+    font-weight: 100;
+}
+@media screen and (min-width:992px){
+    .h-90{
+        width: 100%;
+        margin:0px auto;
+    }
+    
+}

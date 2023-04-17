@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="weight" autocomplete="off">
+        <input type="text" id="height" autocomplete="off">
+        <input type="submit" value="Calculate">
+    </form>
+    <h1></h1>
+    <script>
+        document.getElementsByTagName("form")[0].addEventListener("submit",(event)=>{
+            var w = parseInt(document.getElementById("weight").value);
+            var h = parseInt(document.getElementById("height").value);
+            var bmi;
+            alert(typeof(w));
+            bmi = Math.round(w/(h*h));
+            document.getElementsByTagName("h1")[0].innerHTML="Your BMI is: "+bmi;
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
