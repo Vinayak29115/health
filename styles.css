@@ -4,6 +4,10 @@ body{
     font-family: sans-serif;
     background: white;
 }
+.nav-link:hover{
+    color:white;
+    border-bottom: 2px solid yellow;
+}
 .main{
     background:url("images/intro.gif"); background-size: cover; 
     width: 100vw; height: 100vh;
